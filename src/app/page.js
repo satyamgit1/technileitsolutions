@@ -26,7 +26,7 @@ export default function HomePage() {
             Empowering Innovation <br />
             with{" "}
             <span className="text-white">
-              AI Powered technileitsolutions Software
+              AI Powered Technile IT Solutions Software
             </span>
           </h1>
 
@@ -34,7 +34,7 @@ export default function HomePage() {
           <p className="mt-4 text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">
             At{" "}
             <span className="font-bold text-orange-400">
-              technileitsolutions
+              Technile IT Solutions
             </span>
             , we build intelligent, scalable, and future-ready tech solutions
             that drive business transformation.

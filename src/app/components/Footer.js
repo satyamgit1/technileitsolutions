@@ -80,7 +80,7 @@ export default function Footer() {
       </div>
 
       <div className="mt-10 text-center text-sm text-gray-500 border-t border-gray-700 pt-6">
-        © {new Date().getFullYear()} technileitsolutions All rights reserved.
+        © {new Date().getFullYear()} Technile IT Solutions All rights reserved.
       </div>
     </footer>
   );

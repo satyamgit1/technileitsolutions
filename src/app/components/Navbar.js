@@ -19,7 +19,7 @@ export default function Navbar() {
 />
 
           <span className="text-2xl md:text-3xl font-extrabold tracking-wider text-orange-500 hover:drop-shadow-lg transition duration-200">
-            technileitsolutions
+           Technile IT Solutions
           </span>
         </div>
 
