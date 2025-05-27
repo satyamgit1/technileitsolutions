@@ -77,16 +77,17 @@ export default function ContactForm() {
         {/* Right Map Section */}
         <div className="w-full h-full">
           <iframe
-            title="Office Location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.304470763093!2d72.88418107510432!3d19.137765182077754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c82e20874863%3A0xf6c47aabe8aeed32!2sThe%20Crescent%20Business%20Park!5e0!3m2!1sen!2sin!4v1716768703881!5m2!1sen!2sin"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            className="w-full h-full"
-          ></iframe>
+  title="Office Location"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.9567362861476!2d72.47479567547349!3d23.02536067917179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b0ba3842e27%3A0xe4b99586f40e564e!2sOne%20World%20West!5e0!3m2!1sen!2sin!4v1748334655820!5m2!1sen!2sin"
+  width="100%"
+  height="100%"
+  style={{ border: 0 }}
+  allowFullScreen=""
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  className="w-full h-full"
+/>
+
         </div>
       </div>
     </section>
