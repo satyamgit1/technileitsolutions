@@ -24,7 +24,7 @@ export default function Footer() {
               href="mailto:contact@technileitsolutions.com"
               className="text-orange-400 hover:underline"
             >
-              contact@realitywebindia.com
+              contact@technileitsolutions.com
             </a>
           </p>
 
@@ -80,7 +80,7 @@ export default function Footer() {
       </div>
 
       <div className="mt-10 text-center text-sm text-gray-500 border-t border-gray-700 pt-6">
-        © {new Date().getFullYear()} Reality Web India. All rights reserved.
+        © {new Date().getFullYear()} technileitsolutions All rights reserved.
       </div>
     </footer>
   );
