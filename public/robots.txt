@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://technileitsolutions.com/sitemap.xml
