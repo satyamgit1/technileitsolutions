@@ -1,6 +1,6 @@
 "use client";
 
-import { Linkedin, Twitter, Instagram } from "lucide-react";
+import { Linkedin, Twitter, Instagram, MapPin } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -15,8 +15,7 @@ export default function Footer() {
             We're just a call or message away.
           </p>
           <p className="mt-4 text-sm">
-            📞{" "}
-            <span className="text-orange-400">(+91) 8369633838</span>
+            📞 <span className="text-orange-400">(+91) 8369633838</span>
           </p>
           <p className="text-sm">
             📧{" "}
@@ -27,6 +26,14 @@ export default function Footer() {
               contact@technileitsolutions.com
             </a>
           </p>
+
+          {/* Address Section */}
+          <div className="flex items-start gap-2 mt-4 text-sm">
+            <MapPin className="w-4 h-4 text-orange-400 mt-0.5" />
+            <span>
+              <strong>Address:</strong> 1201, One World West, Ambli T junction, Ahmedabad, Gujarat – 380058
+            </span>
+          </div>
 
           {/* Social Icons */}
           <div className="flex gap-6 mt-6">
@@ -80,7 +87,7 @@ export default function Footer() {
       </div>
 
       <div className="mt-10 text-center text-sm text-gray-500 border-t border-gray-700 pt-6">
-        © {new Date().getFullYear()} Technile IT Solutions All rights reserved.
+        © {new Date().getFullYear()} Technile IT Solutions. All rights reserved.
       </div>
     </footer>
   );
